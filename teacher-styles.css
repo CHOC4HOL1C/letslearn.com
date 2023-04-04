@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --accent-color: #00d989;
+    --accent-color-rgb: rgb(4, 170, 109);
+    --dark-color: #24252A;
+    --dark-blue-color: #12212f;
+    --ligher-blue-color: #2a4d6d;
+  --poppins: "Poppins", sans-serif;
+    /* --accent-color: #04AA6D; */
+
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-blue-color);
+    color: #edf0f1;
+}
+
+.navbar-div {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    /* background: rgb(56, 120, 186); */
+    /* background: rgb(44, 103, 197); */
+    background: var(--dark-blue-color);
+    justify-content: right;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 20px;
+
+}
+
+.logo {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #edf0f1;
+    /* border: 2px solid #edf0f1; */
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    line-height:95%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.logo-style {
+    color: var(--accent-color);
+}
+
+.logo:hover {
+    color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+}
+
+a.linky {
+    display: inline;
+    font-size: larger;
+    color: rgb(255, 213, 0);
+    cursor: pointer;
+}
+a.linky:hover {
+    color: rgba(0, 136, 169, 1);
+}
+
+li,
+a {
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    padding-left: 0%;
+    margin-bottom: 0%;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: var(--accent-color);
+}
+
+li.hidden-contact {
+    display: none;
+}
+
+#user-icon-button {
+    padding: 9px 25px;
+    margin-right: 17px;
+    margin-left: 17px;
+    margin-top: 4px;
+    background-color: rgba(0, 136, 169, 1);
+    color: #edf0f1;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#contact-button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+div .menu-btn i{
+    color: #edf0f1;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+/* #check {
+    display: none;
+} */
+
+ .burgir-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 0%;
+    border-width: 0%;
+    margin-top: 0%;
+    background-color: #ffffff;
+} 
+/*
+button#burgir-button {
+    width: 30px;
+    height: 30px;
+    border-width: 0px;
+    padding: 0% 0%;
+    margin-top: 1px;
+    opacity: 85%;
+    margin-right: 30px;
+}
+a.burgir {
+    display: none;
+} */
+.fas {
+    margin-right: 17px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 0px 0px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+  }
+
+  li .dropdown-tray {
+    display: none !important;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position:relative;
+    left: 0px;
+    display: inline-block;
+
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: -45px;
+    background-color: #f1f1f1;
+    min-width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: rgba(4, 170, 109, 0.7);   
+  }
+
+  /* user icon image */
+  .user-icon-img {
+    height: 50px;
+    width: 50px;
+  }
+
+
+/* subheading */
+.subheading {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.card-row{
+    display: flex;
+    height: 43%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 0% 1%;
+}
+
+.card-image {
+border-radius: 10% 10% 0% 0%;
+
+}
+
+.card-item-text {
+    line-height: 50%;
+    background-color: var(--ligher-blue-color);
+    padding: 0% 5%;
+    font-weight: 10px;
+    /* border-radius: 0% 0% 10% 10%; */
+
+}
+
+/* stats-button */
+.stats-button{
+    height: 40%;
+    width: 100%;
+    position: relative;
+    left: -40px;
+    font-family: var(--poppins);
+    border-radius: 15%;
+    border-style: none;
+    background-color: var(--ligher-blue-color);
+    color: #ffffff;
+    margin: 20% 5%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.stats-button:hover {
+    background-color: #12212f;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+/* Media Queries */
+/* Phone Display */
+@media only screen and (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+    #contact-button {
+        display: none;
+    }
+    /* span.logo {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    } */
+    /* a.burgir {
+        display: contents;
+    } */
+   
+}
+
+
+/* iPad Display */
+@media only screen and (max-width: 820px) {
+    /* #navbar {
+        display: none;
+    } */
+    #navbar li.hidden-contact {
+        display: block;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #24252A;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    /* #click:checked ~ #navbar {
+        left: 0%;
+    } */
+    #navbar li{
+        margin: 40px  0px;
+    }
+    #navbar li a{
+        font-size: 30px;
+        display: block;
+    }
+    #contact-button {
+        display: none;
+    }
+    div .menu-btn i{
+        display: block;
+    }
+
+    /* span.logo {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    } */
+    /* a.burgir {
+        display: contents;
+    } */
+ 
+}
+
+
+
+
+    
