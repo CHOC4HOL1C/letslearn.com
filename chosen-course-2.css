@@ -202,3 +202,29 @@ a:link
     background-color: #00d989 !important;
     border: none;
 }
+
+@media (max-width: 575px) {
+    .parent
+    {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .child1, .child2
+    {
+        
+        width: 100% !important;
+    }
+}
+
+.child2 a
+{
+    color: #00d989;
+}
+
+.child2 a:hover
+{
+    color: rgb(136, 233, 127);
+    border-bottom:1px solid rgb(136, 233, 127);
+}
+
