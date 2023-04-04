@@ -1,4 +1,12 @@
 
+*{
+    margin:0;
+    padding:0;
+}
+.container1{
+    padding-left:40px;
+    padding-top: 20px;
+}
 .header-division h3 {
     padding-top: 5px;
     font-size: 28px;
@@ -64,6 +72,8 @@ img {
     align-items: center;
     background-color: #302f2f;
     color: #e1e1e1;
+    position: relative;
+    width:100%;
 }
 
 .user-pic {
@@ -102,6 +112,7 @@ img {
 .offcanvas-body .btn{
     border-color: #0088a9 !important;
     border-radius: 10px !important;
+    width: 240px;
     color: #0088a9 !important;
     transition-duration: 0.25s !important;
     background-color: transparent !important;
@@ -134,11 +145,6 @@ img {
     margin: 30px 0;
 }
 
-
-.btn btn-dark {
-    font-size: 15px;
-}
-
 .card:hover {
     transform: scale(1.1);
     transition: 0.5s;
@@ -146,16 +152,22 @@ img {
 
 .card-title {
     word-wrap: break-word;
-    font-size: 170%;
+    font-size: 130%;
     height: 60px;
     background-color: #222222;
 
 }
+@media(max-width:575px){
+    .container1{
+        padding-left:30px;
+        padding-top: 20px;
+    }
+}
 .wrapper {
-    position: absolute;
-    left: 1480px;
-    top: 520px;
-    max-width: 400px;
+    position:fixed;
+    right:0;
+    bottom:0;
+    width:400px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 25px 20px rgba(0, 0, 0, 0.1);
@@ -255,12 +267,40 @@ form .textarea textarea::placeholder {
 
 .chat-head {
     position: fixed;
-    left: 1830px;
-    top: 1020px;
+    align-items: end;
 }
 
 .chat-head img {
+    bottom:0;
+    right:0;
     width: 60px;
     height: 60px;
     cursor: pointer;
+    position: fixed;
+}
+@media(max-width:575px){
+    .wrapper {
+        width:300px;;
+        bottom:0;
+        margin-right:80px;  
+    }
+    .chat-head {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .chat-head img {
+        bottom:10;
+        left: 0px;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        position: fixed;
+    }
+}
+@media(max-width: 575px){
+    .offcanvas{
+        width:70% !important;
+   }  
 }
