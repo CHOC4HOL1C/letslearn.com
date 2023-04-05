@@ -81,8 +81,6 @@ p {
     outline: none;
 }
 
-a.menu-link { display: none; }
-
 @media screen and (max-width: 950px) {
   a.menu-link {
     float: right;
@@ -183,7 +181,7 @@ a.menu-link { display: none; }
 
 .main-header .logo a {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 800;
     color: #fff;
 }
 .main-header .logo a em {
