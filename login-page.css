@@ -204,6 +204,13 @@ a, a:visited, a:hover, a:active {
     background-image: url("rectangle-field-login-tray.png");
     background-position: center;
   }
+  .form-input {
+    background-color: rgba(166, 166, 166, 1);
+    width: 100%;
+    padding-left: 10px;
+    font-family: var(--poppins);
+  }
+
   .login-page-text08 {
     top: 230px;
     left: 60px;

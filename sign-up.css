@@ -208,6 +208,12 @@ a:active {
   background-image: url("https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/54bb0c4a-aead-4d73-9052-525853d46d86/8baac1df-37a8-43be-9f36-b55e543583fc?org_if_sml=1510");
   background-position: center;
 }
+.form-input {
+  background-color: rgba(166, 166, 166, 1);
+  width: 100%;
+  padding-left: 10px;
+  font-family: var(--poppins);
+}
 .sign-up-text06 {
   top: 155px;
   left: 215px;
