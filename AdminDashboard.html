@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Montserrat:wght@500;700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Teacher Dashboard</title>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="teacher-styles.css" />
     <link
       rel="stylesheet"
@@ -54,38 +54,70 @@
     <div class="burger-button"></div>
 
     <div class="subheading">
-      <h1>Teaching</h1>
+      <h1>Overall Statistics</h1>
     </div>
 
-    <div class="card-row">
+    <div class="card-row" style="height: auto; ">
       <div class="card-item">
-        <img class="card-image" src="/pictures/MathsD.jpg" />
-        <div class="card-item-text">
-          <h5>CIE O Level</h5>
-          <h2>Maths D</h2>
+        <div class="card-item-text admin-stat-text">
+          <h2>8</h2>
+          <h5>Courses</h5>
         </div>
       </div>
       <div class="card-item">
-        <img class="card-image" src="/pictures/MathsB.jpg" />
-        <div class="card-item-text">
-          <h5>Pearson IGCSE</h5>
-          <h2>Maths B</h2>
+        <div class="card-item-text admin-stat-text">
+          <h2>1.2k</h2>
+          <h5>Students</h5>
         </div>
       </div>
       <div class="card-item">
-        <img class="card-image" src="/pictures/AdMath.jpg" />
-        <div class="card-item-text">
-          <h5>CIE O Level</h5>
-          <h2>Additional Math</h2>
+        <div class="card-item-text admin-stat-text">
+          <h2>6k</h2>
+          <h5>Watch Minutes</h5>
         </div>
       </div>
       <div class="card-item">
-        <img class="card-image" src="/pictures/P1Math.jpg" />
-        <div class="card-item-text">
-          <h5>CIE A Level</h5>
-          <h2>P1: Pure Math</h2>
+        <div class="card-item-text admin-stat-text">
+          <h2><span class="logo-style">+</span>5%</h2>
+          <h5>Engagement</h5>
         </div>
       </div>
+    </div>
+
+
+    <div class="subheading">
+        <h1>Publish Content</h1>
+    </div>
+
+    <div class="card-row" style="height: auto; ">
+        <div class="card-item">
+          <div class="card-item-text admin-stat-text" style="flex-direction: row; justify-content: space-between;">
+            <h2>Add New<br><br><br>Course</h2>
+            <img src="icons/plus.png" style="height: 30px; width: 30px" >
+          </div>
+        </div>
+        <div class="card-item">
+            <div class="card-item-text admin-stat-text" style="flex-direction: row; justify-content: space-between;">
+              <h2>Add New<br><br><br>Lesson</h2>
+              <img src="icons/plus.png" style="height: 30px; width: 30px" >
+            </div>
+          </div>
+    </div>
+
+    <div class="subheading">
+        <h1>Data Bank</h1>
+    </div>
+
+    <div class="topnav">
+        <div class="dropdown">
+            <button class="dropbtn">
+                <a class="active" href="#home">Student ↓</a>
+            </button>
+            <div class="dropdown-content" style = "left: 0px;">
+              <a href="#">Teacher</a>
+            </div>
+          </div>
+        <input type="text" placeholder="Enter ID">
     </div>
 
     <div class="subheading">
@@ -109,6 +141,7 @@
         </div>
       </div>
     </div>
+
 
     <footer style="position: fixed; bottom: 0">
       <p class="bodytext" style="margin-left: 50px">
