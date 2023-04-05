@@ -1,0 +1,645 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+:root {
+    --accent-color: #00d989;
+    --accent-color-rgb: rgb(4, 170, 109);
+    --black-color: #000000;
+    --dark-color: #24252A;
+    --dark-blue-color: #12212f;
+    --poppins: 'Poppins', sans-serif;
+    /* --accent-color: #04AA6D; */
+
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration:none
+  }
+.body {
+    background-image: linear-gradient(180deg, #292929, #000000);
+    height: 720px;
+    width: 1280px;
+}
+.login-page-login-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-image: linear-gradient(180deg, #292929, #000000); 
+  }
+  .login-page-login-tray { /*size of this tray is 499 x 582*/
+    /* top: 249px;
+    left: 706px;
+    width: 499px;
+    height: 582px; */
+    top: calc((100vh/2)-291); 
+    left: calc((100vw/2)-250);
+    width: 400px;
+    height: 480px;
+    display: flex;
+    padding: 0;
+    position:absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: var(--poppins);
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .login-page-rectangle1 {
+    left: 0px;
+    /* width: 499px; */
+    width: 400px;
+    height: 400px;
+    bottom: -19px;
+    /* height: 515px; */
+    display: flex;
+    position: relative;
+    border-color: transparent;
+    border-radius: 50px;
+    background-size: cover;
+    /* background-image: url("/playground_assets/rectangle124-gi7-600h.png"); */
+    background-position: center;
+    background-color: #292929;
+  }
+  .login-page-ellipse1 {
+    top: 0px;
+    left: 142.5px;
+    width: 115px;
+    height: 115px;
+    display: flex;
+    position: absolute;
+    border-color: transparent;
+    background-size: cover;
+    background-image: url("/playground_assets/ellipse125-syin-200h.png");
+    background-position: center;
+  }
+  .sign-up-useraccountprofile {
+    top: 11px;
+    left: 193px;
+    width: 113px;
+    height: 113px;
+    display: flex;
+    position: absolute;
+    border-color: transparent;
+    background-size: cover;
+    background-image: url("https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/54bb0c4a-aead-4d73-9052-525853d46d86/65112936-f86e-4dd4-aad0-9a15e0ef391f?org_if_sml=11881");
+    background-position: center;
+  }
+  /* .login-page-useraccountprofile {
+    width: 113px;
+    height: 113px;
+    position: relative;
+    border-color: transparent;
+  } */
+  .login-page-line1 {
+    top: 110px;
+    left: 200px;
+    width: 150px;
+    height: 5px;
+    display: flex;
+    position: absolute;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+  }
+  .login-page-line2 {
+    top: 110px;
+    left: 50px;
+    width: 150px;
+    height: 1px;
+    display: flex;
+    position: absolute;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+  }
+  .login-page-text {
+    top: 78px;
+    left: 256px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-page-text02 {
+    top: 356px;
+    left: 140px;
+    color: rgba(166, 166, 166, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-page-text04 {
+    top: 155px;
+    left: 60px;
+    color: rgba(166, 166, 166, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: Regular;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-page-text06 {
+    top: 78px;
+    left: 91px;
+    color: rgba(201, 184, 184, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-page-rectangle2 {
+    top: 175px;
+    left: 50px;
+    width: 300px;
+    height: 33px;
+    display: flex;
+    position: relative;
+    border-color: transparent;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url("rectangle-field-login-tray.png");
+    background-position: center;
+  }
+  .login-page-text08 {
+    top: 230px;
+    left: 60px;
+    color: rgba(166, 166, 166, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: Regular;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-page-rectangle3 {
+    top: 250px;
+    left: 50px;
+    width: 300px;
+    height: 33px;
+    display: flex;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url("rectangle-field-login-tray.png");
+    background-position: center;
+  }
+  .login-page-rectangle7 {
+    top: 305px;
+    left: 110px;
+    width: 179px;
+    height: 42px;
+    display: flex;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 10px;
+    background-size: cover;
+    background-color: var(--accent-color);
+    background-position: center;
+  }
+  .login-page-text10 {
+    top: 310px;
+    left: 171px;
+    color: var(--dark-color);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  /* Below 820 Display */
+  @media only screen and (max-width: 820) {
+    .login-page-ellipse1 {
+        top: 0px;
+        width: 115px;
+        height: 115px;
+        display: flex;
+        position: absolute;
+        border-color: transparent;
+        background-size: cover;
+        background-image: url("/playground_assets/ellipse125-syin-200h.png");
+        background-position: center;
+      }
+      .login-page-login-page {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border-color: transparent;
+        background-image: linear-gradient(180deg, #292929, #000000); 
+      }
+      .login-page-text06 {
+        top: 78px;
+        left: 77px;
+        color: rgba(201, 184, 184, 1);
+        height: auto;
+        position: absolute;
+        font-size: 16px;
+        align-self: auto;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .login-page-text {
+        top: 78px;
+        left: 204px;
+        color: rgba(255, 255, 255, 1);
+        height: auto;
+        position: absolute;
+        font-size: 16px;
+        align-self: auto;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .login-page-line1 {
+        top: 110px;
+        left: 170px;
+        width: 110px;
+        height: 5px;
+        display: flex;
+        position: absolute;
+        background-color: #ffffff;
+        background-size: cover;
+        background-position: center;
+      }
+      .login-page-line2 {
+        top: 110px;
+        left: 50px;
+        width: 150px;
+        height: 1px;
+        display: flex;
+        position: absolute;
+        background-color: #ffffff;
+        background-size: cover;
+        background-position: center;
+      }
+      .login-page-rectangle2 {
+        top: 175px;
+        left: 50px;
+        width: 230px;
+        height: 33px;
+        display: flex;
+        position: relative;
+        border-color: transparent;
+        border-radius: 10px;
+        background-size: cover;
+        background-image: url("rectangle-field-login-tray.png");
+        background-position: center;
+      }
+      .login-page-rectangle3 {
+        top: 250px;
+        left: 50px;
+        width: 230px;
+        height: 33px;
+        display: flex;
+        position: absolute;
+        border-color: transparent;
+        border-radius: 10px;
+        background-size: cover;
+        background-image: url("rectangle-field-login-tray.png");
+        background-position: center;
+      }
+      .login-page-rectangle7 {
+        top: 305px;
+        left: 99px;
+        width: 132px;
+        height: 42px;
+        display: flex;
+        position: absolute;
+        border-color: transparent;
+        border-radius: 10px;
+        background-size: cover;
+        background-color: var(--accent-color);
+        background-position: center;
+      }    
+      .login-page-text10 {
+        top: 310px;
+        left: 136px;
+        color: var(--dark-color);
+        height: auto;
+        position: absolute;
+        font-size: 20px;
+        align-self: auto;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .login-page-text02 {
+        top: 356px;
+        left: 140px;
+        color: rgba(166, 166, 166, 1);
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        align-self: auto;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+
+
+  }
+
+  /* 1080p Display and above */
+@media only screen and (min-width: 1400) {
+    .login-page-login-tray { /*size of this tray is 499 x 582*/
+        /* top: 249px;
+        left: 706px;
+        width: 499px;
+        height: 582px; */
+        top: calc((100vh/2)-291); 
+        left: calc((100vw/2)-250);
+        width: 400px;
+        height: 480px;
+        display: flex;
+        padding: 0;
+        position:absolute;
+        align-self: auto;
+        box-sizing: border-box;
+        align-items: center;
+        font-family: var(--poppins);
+        flex-shrink: 1;
+        border-color: transparent;
+        border-style: none;
+        border-width: 0;
+        margin-right: 0;
+        border-radius: 0px 0px 0px 0px;
+        margin-bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        background-color: transparent;
+      }
+      .login-page-rectangle1 {
+        left: 0px;
+        /* width: 499px; */
+        width: 400px;
+        height: 480px;
+        bottom: 0px;
+        /* height: 515px; */
+        display: flex;
+        position: relative;
+        border-color: transparent;
+        border-radius: 50px;
+        background-size: cover;
+        /* background-image: url("/playground_assets/rectangle124-gi7-600h.png"); */
+        background-position: center;
+        background-color: #292929;
+      }
+      .login-page-ellipse1 {
+        top: -50px;
+        left: 142.5px;
+        width: 115px;
+        height: 115px;
+        display: flex;
+        position: absolute;
+        border-color: transparent;
+        background-size: cover;
+        background-image: url("/playground_assets/ellipse125-syin-200h.png");
+        background-position: center;
+      }
+      .sign-up-useraccountprofile {
+        top: 11px;
+        left: 193px;
+        width: 113px;
+        height: 113px;
+        display: flex;
+        position: absolute;
+        border-color: transparent;
+        background-size: cover;
+        background-image: url("https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/54bb0c4a-aead-4d73-9052-525853d46d86/65112936-f86e-4dd4-aad0-9a15e0ef391f?org_if_sml=11881");
+        background-position: center;
+      }
+      /* .login-page-useraccountprofile {
+        width: 113px;
+        height: 113px;
+        position: relative;
+        border-color: transparent;
+      } */
+      .login-page-line1 {
+        top: 147px;
+        left: 200px;
+        width: 150px;
+        height: 5px;
+        display: flex;
+        position: absolute;
+        background-color: #ffffff;
+        background-size: cover;
+        background-position: center;
+      }
+      .login-page-line2 {
+        top: 147px;
+        left: 50px;
+        width: 150px;
+        height: 1px;
+        display: flex;
+        position: absolute;
+        background-color: #ffffff;
+        background-size: cover;
+        background-position: center;
+      }
+      .login-page-text {
+        top: 105px;
+        left: 245px;
+        color: rgba(255, 255, 255, 1);
+        height: auto;
+        position: absolute;
+        font-size: 20px;
+        align-self: auto;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .login-page-text02 {
+        top: 415px;
+        left: 134px;
+        color: rgba(166, 166, 166, 1);
+        height: auto;
+        position: absolute;
+        font-size: 16px;
+        align-self: auto;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .login-page-text04 {
+        top: 185px;
+        left: 60px;
+        color: rgba(166, 166, 166, 1);
+        height: auto;
+        position: absolute;
+        font-size: 16px;
+        align-self: auto;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .login-page-text06 {
+        top: 105px;
+        left: 85px;
+        color: rgba(201, 184, 184, 1);
+        height: auto;
+        position: absolute;
+        font-size: 20px;
+        align-self: auto;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .login-page-rectangle2 {
+        top: 210px;
+        left: 50px;
+        width: 300px;
+        height: 33px;
+        display: flex;
+        position: relative;
+        border-color: transparent;
+        border-radius: 10px;
+        background-size: cover;
+        background-image: url("rectangle-field-login-tray.png");
+        background-position: center;
+      }
+      .login-page-text08 {
+        top: 264px;
+        left: 60px;
+        color: rgba(166, 166, 166, 1);
+        height: auto;
+        position: absolute;
+        font-size: 16px;
+        align-self: auto;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .login-page-rectangle3 {
+        top: 288px;
+        left: 50px;
+        width: 300px;
+        height: 33px;
+        display: flex;
+        position: absolute;
+        border-color: transparent;
+        border-radius: 10px;
+        background-size: cover;
+        background-image: url("rectangle-field-login-tray.png");
+        background-position: center;
+      }
+      .login-page-rectangle7 {
+        top: 360px;
+        left: 110px;
+        width: 179px;
+        height: 42px;
+        display: flex;
+        position: absolute;
+        border-color: transparent;
+        border-radius: 10px;
+        background-size: cover;
+        background-color: var(--accent-color);
+        background-position: center;
+      }
+      .login-page-text10 {
+        top: 366px;
+        left: 162px;
+        color: var(--dark-color);
+        height: auto;
+        position: absolute;
+        font-size: 20px;
+        align-self: auto;
+        font-style: Regular;
+        text-align: left;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+}
+  
