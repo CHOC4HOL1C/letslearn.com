@@ -184,9 +184,19 @@ p {
     font-weight: 800;
     color: #fff;
 }
-.main-header .logo a em {
+.main-header .logo h3 {
     font-style: normal;
-    color: #00d989;
+    color: white;
+    font-weight: 800;
+    margin-right: auto;
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.main-header .logo h3 em{
+  font-style: normal;
+  color: #00d989;
 }
 
 .main-menu {
