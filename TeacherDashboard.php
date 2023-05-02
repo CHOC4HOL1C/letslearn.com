@@ -23,7 +23,7 @@
   <body>
     <div class="navbar-div">
       <span class="logo"
-        ><a href="index.html"
+        ><a href="index.php"
           >Let's<br /><span class="logo-style">Learn</span></a
         ></span
       >

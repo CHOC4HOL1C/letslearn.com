@@ -17,7 +17,7 @@
 
     <div class="header">
       <div class="header-division">
-          <span class = "logo"><a href="index.html" style="text-decoration: none; color: #eee;">Let's<br><span class = "logo-style">Learn</span></a></span> 
+          <span class = "logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span class = "logo-style">Learn</span></a></span> 
           <form action="" class="search-bar">
               <input type="text" placeholder="search" name="">
               <button type="submit"><img src="Icon/search1.png" alt=""></button>
@@ -42,13 +42,13 @@
         </div>
         <div class="offcanvas-body me-3">
           <div style="margin-bottom: 5%; margin-top: 40%; text-align: center;">
-              <a href="index.html" class="btn btn-outline-info" role="button"><h4><img src="Icon/home.png" style="margin-bottom: 4px;" alt=""> Home</h4></a>
+              <a href="index.php" class="btn btn-outline-info" role="button"><h4><img src="Icon/home.png" style="margin-bottom: 4px;" alt=""> Home</h4></a>
           </div>
           <div style="margin-bottom: 5%; text-align: center;">
               <a href="#" class="btn btn-outline-info" role="button"><h4><img src="Icon/achievement.png" style="margin-bottom: 4px;" alt=""> Achievement</h4></a>
           </div>
           <div style="margin-bottom: 5%; text-align: center;">
-              <a href="courses-offered-page.html" class="btn btn-outline-info" role="button"><h4><img src="Icon/course.png" style="margin-bottom: 4px;" alt=""> Courses</h4></a>
+              <a href="courses-offered-page.php" class="btn btn-outline-info" role="button"><h4><img src="Icon/course.png" style="margin-bottom: 4px;" alt=""> Courses</h4></a>
           </div>
           <div style="text-align: center;">
               <a href="#" class="btn btn-outline-info" role="button"><h4><img src="Icon/contact.png" style="margin-bottom: 4px;" alt=""> Contact Us</h4></a>
