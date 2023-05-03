@@ -3,7 +3,7 @@
     $server = "localhost"; // 127.0.0.1:3307 ONLY for Zannat 
     $username = "root";
     $password = "";
-    $db = "letslearn";
+    $db = "letslearndb";
     $con = mysqli_connect($server, $username, $password, $db);
     
     if(!$con)
