@@ -145,6 +145,11 @@
         </div>
 
     </div>
+    <footer>
+      <p class="bodytext" style="height: 50px; display: flex; justify-content: center;align-items:center; font-size: 20px;text-align: center; color: white;">
+        &copy; Let's Learn 2023. All Rights Reserved.
+      </p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

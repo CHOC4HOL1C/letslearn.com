@@ -24,9 +24,16 @@
             </form>
         </div>
         <div class="user-pic">
-            <img src="Icon/user-pic.png"><br>
-            <h4>User</h4>
+    <div class="dropdown">
+        <div class="dropbtn"><img src="Icon/user-pic.png"></div>
+        <div class="dropdown-content">
+          <a href="#">Profile</a>
+          <a href="#">Settings</a>
+          <a href="#">Logout</a>
         </div>
+      </div><br>
+      <h4>User</h4>
+    </div>
     </div>
     
     <button class="btn mt-3 ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"

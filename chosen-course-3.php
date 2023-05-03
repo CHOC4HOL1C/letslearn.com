@@ -14,8 +14,7 @@
 </head>
 
 <body style="background-color: #12212f;font-family:poppins;">
-
-    <div class="header">
+<div class="header">
         <div class="header-division">
             <span class = "logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span class = "logo-style">Learn</span></a></span> 
             <form action="" class="search-bar">
@@ -24,12 +23,19 @@
             </form>
         </div>
         <div class="user-pic">
-            <img src="Icon/user-pic.png"><br>
-            <h4>User</h4>
+    <div class="dropdown">
+        <div class="dropbtn"><img src="Icon/user-pic.png"></div>
+        <div class="dropdown-content">
+          <a href="#">Profile</a>
+          <a href="#">Settings</a>
+          <a href="#">Logout</a>
         </div>
+      </div><br>
+      <h4>User</h4>
+    </div>
     </div>
     
-    <button class="btn mt-3 ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+    <button class="btn mt-3 ms-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
         aria-controls="offcanvasWithBothOptions" style="background-color:#00d989;"><img src="Icon/menuBar.png" alt=""></button>
 
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
@@ -54,9 +60,10 @@
     </div>
 
     <div class="title d-flex justify-content-between mt-4 ms-5">
-        <h2 class="p-2 g-3" style="color: #e1e1e1; display: inline-block; margin-bottom:26px;">Edexcel A2 Biology Unit 6</h2>
-        <a href="#"><button type="button" class="btn btn-info mb-3 me-5 mt-1 p-2"><img src="Icon/tag-icon.png"> Purchase</button></a>
+      <h2 class="p-2 g-3" style=" margin-left:15px;color: #e1e1e1; display: inline-block; margin-bottom:26px;">Edexcel A2 Biology Unit 6</h2>
+      <a href="#"><button onclick="toPurchase()" type="button" class="btn btn-info mb-3 me-5 mt-1 p-2" id="toBuy"><img src="Icon/tag-icon.png"> Purchase</button></a>
     </div>
+
     <hr style="height:2px;border-width:0;color:gray;background-color:gray;">
     <div class="content d-md-inline-flex justify-content-around align-items-center">
         <div class="content1 " style="color:#e1e1e1; margin-left:50px;">
