@@ -1,40 +1,31 @@
 <?php
 
-// Connect to database
-$servername = "localhost";
-$username = "yourusername";
-$password = "yourpassword";
-$dbname = "yourdbname";
-
 $connection = mysqli_connect("localhost", "root", "", "letslearndb");
-
-// Check connection
 if (!$connection) {
     die("Connection failed: " . mysqli_connect_error());
 }
-
-// Handle search query
-if (isset($_POST['search'])) {
+if (isset($_POST['search'])) 
+{
     $search = $_POST['search'];
-    
-    // Construct SQL query
-    $sql = "SELECT * FROM course WHERE column1 LIKE '%$search%' OR column2 LIKE '%$search%' OR column3 LIKE '%$search%'";
-    
-    // Execute query
+    $sql = "SELECT * FROM course WHERE courseName LIKE '%$search%'";
     $result = mysqli_query($connection, $sql);
-    
-    // Display results
+
+
+    $search_results = array();
     if (mysqli_num_rows($result) > 0) {
-        while ($row = mysqli_fetch_assoc($result)) {
-            echo "Column 1: " . $row['column1'] . "<br>";
-            echo "Column 2: " . $row['column2'] . "<br>";
-            echo "Column 3: " . $row['column3'] . "<br><br>";
+        while($row = mysqli_fetch_assoc($result)) {
+            $search_results[] = $row;
         }
+    }
+    if (count($search_results) > 0) {
+        echo "<h2>Search Results</h2>";
+        foreach ($search_results as $result) {
+       echo $result['vidLink'];
+}
     } else {
-        echo "No results found.";
+        echo "<p>No videos found.</p>";
     }
 }
-
 mysqli_close($connection);
 
 ?>
