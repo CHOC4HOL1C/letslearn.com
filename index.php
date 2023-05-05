@@ -9,11 +9,8 @@
     <meta name="author" content="">
 
     <title>Home</title>
-    
-    <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/owl.css">
@@ -21,7 +18,6 @@
   </head>
 
 <body>
-  <!--header-->
   <header class="main-header clearfix" role="header">
     <div class="logo">
       <h3><em>Let's</em><br> Learn</h3>
@@ -37,8 +33,6 @@
       </ul>
     </nav>
   </header>
-
-  <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
           <source src="assets/images/course-video.mp4" type="video/mp4" />
@@ -55,8 +49,6 @@
           </div>
       </div>
   </section>
-  <!-- ***** Main Banner Area End ***** -->
-
   <section class="features">
     <div class="container">
       <div class="row">
@@ -149,130 +141,6 @@
       </div>
     </div>
   </section>
-  <section class="section courses" data-section="section4">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Choose Your Course</h2>
-          </div>
-        </div>
-        <div class="owl-carousel owl-theme">
-          <div class="item">
-            <img src="assets/images/math.jpg" alt="Course #1">
-            <div class="down-content">
-              <h4>O Level <br> Mathematics</h4>
-              <p>Edexcel</p>
-              <div class="text-button-pay">
-                <a href="#">Buy Course <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="Course #2">
-            <div class="down-content">
-              <h4>O Level <br> Physics</h4>
-              <p>Edexcel</p>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="Course #3">
-            <div class="down-content">
-              <h4>O Level <br> Accounting</h4>
-              <p>CIE</p>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="Course #4">
-            <div class="down-content">
-              <h4>O Level <br> Chemistry</h4>
-              <p>Edexcel</p>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
-            <div class="down-content">
-              <h4>O Level <br> English</h4>
-              <p>Edexcel</p>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
-            <div class="down-content">
-              <h4>O Level <br> Biology</h4>
-              <p>CIE</p>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="">
-            <div class="down-content">
-              <h4>A Level <br> Physics</h4>
-              <p>Edexcel</p>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="">
-            <div class="down-content">
-              <h4>A Level <br> Chemistry</h4>
-              <p>CIE</p>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="">
-            <div class="down-content">
-              <h4>A Level <br> Accounting</h4>
-              <p>CIE</p>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
-            <div class="down-content">
-              <h4>A Level <br> Economics</h4>
-              <p>CIE</p>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-06.jpg" alt="">
-            <div class="down-content">
-              <h4>A Level <br> Commerce</h4>
-              <p>CIE</p>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="section contact" data-section="section6">
     <div class="container">
       <div class="row">
@@ -310,7 +178,6 @@
       </div>
     </div>
   </section>
-
   <footer>
     <div class="container">
       <div class="row">
@@ -322,7 +189,5 @@
   </footer>
   <script src="assets/tabs.js"></script>
   <script src="assets/slick-slider.js"></script>
-
-
 </body>
 </html>
