@@ -22,10 +22,10 @@
                         class="logo-style">Learn</span></a></span>
         </div>
         <div class="searchbar" id="box1">
-            <form action="" class="search-bar">
+        <form action="" class="search-bar">
                 <input type="text" placeholder="search" name="search">
                 <button type="submit"><img src="Icon/search1.png" alt=""></button>
-            </form>
+        </form>
         </div>
         <div class="user-pic" id="box1">
             <div class="dropdown">
@@ -74,7 +74,7 @@
         </div>
     </div>
     <div class="title d-flex justify-content-between mt-4 ms-5">
-        <h2 class="p-2 g-3" style=" margin-left:15px;color: #e1e1e1; display: inline-block; margin-bottom:26px;">CAIE A2 Accounting U2</h2>
+        <h2 class="p-2 g-3" style=" margin-left:15px;color: #e1e1e1; display: inline-block; margin-bottom:26px;">Edexcel AS Economics U2</h2>
         <a href="#"><button onclick="toPurchase()" type="button" class="btn btn-info mb-3 me-5 mt-1 p-2" id="toBuy"><img
                     src="Icon/tag-icon.png"> Purchase</button></a>
     </div>
@@ -92,19 +92,19 @@
             <div class="row mt-4">
                 <div class="col-11">
                     <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a
-                            href="https://youtu.be/LIRK8CcJ4ns?list=PLPuEwPhVEjyJUMfsLI6dh9mKeWY4HsZPR" class="p-2"
+                            href="https://youtu.be/2XXjR-IPLFc?list=PLDALTa_7jL6UNxiCMxAskGYMkXAgCSqOq class="p-2"
                             style="text-decoration: none;" target="_blank">Chapter 1</a></button>
                     <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a
-                            href="https://youtu.be/6McKCSTnWi4?list=PLPuEwPhVEjyJUMfsLI6dh9mKeWY4HsZPR" class="p-2"
+                            href="https://youtu.be/t1B8tJqz4B8?list=PLDALTa_7jL6UNxiCMxAskGYMkXAgCSqOq" class="p-2"
                             style="text-decoration: none;" target="_blank">Chapter 2</a></button>
                     <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a
-                            href="https://youtu.be/hPgkwWcmtTI?list=PLPuEwPhVEjyJUMfsLI6dh9mKeWY4HsZPR" class="p-2"
+                            href="https://youtu.be/mMOPeaoNzjg?list=PLDALTa_7jL6UNxiCMxAskGYMkXAgCSqOq" class="p-2"
                             style="text-decoration: none;" target="_blank">Chapter 3</a></button>
                     <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a
-                            href="https://youtu.be/vPOxk-fJ-Hw?list=PLPuEwPhVEjyJUMfsLI6dh9mKeWY4HsZPR" class="p-2"
+                            href="https://youtu.be/mn0X3CUKffY?list=PLDALTa_7jL6UNxiCMxAskGYMkXAgCSqOq" class="p-2"
                             style="text-decoration: none;" target="_blank">Chapter 4</a></button>
                     <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a
-                            href="https://youtu.be/fe8Q2FuYJ9M?list=PLPuEwPhVEjyJUMfsLI6dh9mKeWY4HsZPR" class="p-2"
+                            href="https://youtu.be/LaZJ_0t7Khg?list=PLDALTa_7jL6UNxiCMxAskGYMkXAgCSqOq" class="p-2"
                             style="text-decoration: none;" target="_blank">Chapter 5</a></button>
                 </div>
             </div>
@@ -113,10 +113,10 @@
             <h3 class="m-2" style="color:#e1e1e1;"><u>About this course:</u></h3>
             <div class="about-course ms-2 me-2 mb-2"
                 style="padding: 30px;color:#252525;background-color: #00d989; margin-top: 60px; border-radius:8px; opacity:80%;font-size: 18px; word-wrap: break-word;">
-                This playlist covers all the chapters that needs to be covered to ace your A2 Accounting U2 exam. Our
+                This playlist covers all the chapters that needs to be covered to ace your AS Economics U2 exam. Our
                 teachers have designed the course contents in such a way so that it is easy for the students to grasp
-                the concept and learn accounting in a fun way! So why wait? Excel in your CAIE exam for just<p>
-                <h4>BDT899!</h4>
+                the concept and learn economics in a fun way! So why wait? Excel in your AS exam for just<p>
+                <h4>BDT999!</h4>
                 </p>
             </div>
         </div>

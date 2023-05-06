@@ -20,13 +20,6 @@
     <div class="header-division">
       <span class="logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span
             class="logo-style">Learn</span></a></span>
-<<<<<<< HEAD
-=======
-      <form action="course_search.php" class="search-bar" method = "post">
-        <input type="text" placeholder="search" name="search">
-        <button type="submit"><img src="Icon/search1.png" alt=""></button>
-      </form>
->>>>>>> 8bccc9e2e695ed6138a357e117c5d57d0ce58a04
     </div>
     <div class="user-pic">
       <div class="dropdown">
@@ -112,9 +105,9 @@
       $query = 'SELECT * FROM course';
       $result = mysqli_query($con, $query);
     }
-
     if ($result):
       if (mysqli_num_rows($result) > 0):
+        $count = 1;
         while ($video = mysqli_fetch_assoc($result)):
             echo '<div class="col">
                         <div class="card border-0 h-100">
@@ -125,10 +118,11 @@
                           <div class="card-body"
                             style="color:white; background-color: #2a4d6d;display: flex; justify-content: space-between; align-items: center;">
                             <h5 class="card-title" style="background-color:#2a4d6d;">' . $video['courseBoard'] . ' ' . $video['courseLevel'] . ' ' . $video['courseName'] . ' ' . $video['unit'] . '</h5>
-                            <a href="chosen-course-5.php" class="btn btn-outline-info p-3" role="button">View Course</a>
+                            <a href="chosen-course-'.$count.'.php" class="btn btn-outline-info p-3" role="button">View Course</a>
                           </div>
                         </div>
                       </div>';
+                      $count = $count + 1;
           endwhile;
       endif;
     endif;
