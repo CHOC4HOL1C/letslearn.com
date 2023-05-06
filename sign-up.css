@@ -9,6 +9,7 @@
   --black-color: #000000;
   --dark-color: #24252a;
   --dark-blue-color: #12212f;
+  --lighter-blue-color: #2a4d6d;
   --poppins: "Poppins", sans-serif;
   /* --accent-color: #04AA6D; */
 }
@@ -28,7 +29,7 @@ a:active {
   flex-direction: column;
 } */
 .body {
-  background-image: linear-gradient(180deg, #292929, #000000);
+  background-image: linear-gradient(180deg, #2a4d6d, #12212f);
   display: block;
   text-align: center;
   /* justify-content: center;
@@ -46,7 +47,7 @@ a:active {
   align-items: center;
   justify-content: center;
   border-color: transparent;
-  background-image: linear-gradient(180deg, #292929, #000000);
+  background-image: linear-gradient(180deg, #2a4d6d, #12212f);
 }
 .sign-up-signup-tray {
   /* top: 151px;
@@ -89,7 +90,7 @@ a:active {
   display: flex;
   position: absolute;
   margin-bottom: 120px;
-  background-color: #292929;
+  background-color: var(--dark-blue-color);
   border-radius: 50px;
   background-size: cover;
   /* background-image: url("https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/54bb0c4a-aead-4d73-9052-525853d46d86/1bfec409-6f9a-46f9-a250-dac8eef34695?org_if_sml=14346"); */
@@ -209,10 +210,15 @@ a:active {
   background-position: center;
 }
 .form-input {
-  background-color: rgba(166, 166, 166, 1);
+  background-color: rgba(42, 77, 109, 0.8);
   width: 100%;
   padding-left: 10px;
   font-family: var(--poppins);
+  color:rgba(255, 255, 255, 1)
+}
+::placeholder {
+  color: rgb(149, 149, 149);
+  opacity: 1;
 }
 .sign-up-text06 {
   top: 155px;
@@ -360,6 +366,13 @@ a:active {
   border-color: transparent;
   border-radius: 10px;
   background-color: #00d989;
+}
+
+.sign-up-rectangle7:hover {
+  color: var(--accent-color-rgb);
+  background-color: var(--accent-color);
+  border: 2px solid white;
+  cursor: pointer;
 }
 
 .sign-up-text16 {

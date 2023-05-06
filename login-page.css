@@ -9,6 +9,7 @@
     --black-color: #000000;
     --dark-color: #24252A;
     --dark-blue-color: #12212f;
+    --lighter-blue-color: #2a4d6d;
     --poppins: 'Poppins', sans-serif;
     /* --accent-color: #04AA6D; */
 
@@ -18,7 +19,7 @@ a, a:visited, a:hover, a:active {
     text-decoration:none
   }
 .body {
-    background-image: linear-gradient(180deg, #292929, #000000);
+    background-image: linear-gradient(180deg, #2a4d6d, #12212f);
     height: 720px;
     width: 1280px;
 }
@@ -33,7 +34,7 @@ a, a:visited, a:hover, a:active {
     justify-content: center;
     flex-shrink: 0;
     border-color: transparent;
-    background-image: linear-gradient(180deg, #292929, #000000); 
+    background-image: linear-gradient(180deg, #2a4d6d, #12212f); 
   }
   .login-page-login-tray { /*size of this tray is 499 x 582*/
     /* top: 249px;
@@ -76,7 +77,8 @@ a, a:visited, a:hover, a:active {
     background-size: cover;
     /* background-image: url("/playground_assets/rectangle124-gi7-600h.png"); */
     background-position: center;
-    background-color: #292929;
+    background-color: var(--dark-blue-color);
+
   }
   .login-page-ellipse1 {
     top: 0px;
@@ -205,11 +207,15 @@ a, a:visited, a:hover, a:active {
     background-position: center;
   }
   .form-input {
-    background-color: rgba(166, 166, 166, 1);
+    background-color: rgba(42, 77, 109, 0.8);
     width: 100%;
     padding-left: 10px;
     font-family: var(--poppins);
   }
+  ::placeholder {
+  color: rgb(149, 149, 149);
+  opacity: 1;
+}
 
   .login-page-text08 {
     top: 230px;

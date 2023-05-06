@@ -1,3 +1,28 @@
+<?php
+$login = false;
+$showError = false;
+$connection = mysqli_connect("localhost", "root", "", "letslearndb");
+if (!$connection) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+if (isset($_POST['search'])) 
+{
+    $email = $POST["email"];
+    $password = $POST["password"];
+
+    $sql ="SELECT * FROM `student` WHERE `email` = `$email` AND `password` = `$password`";
+    $result = mysqli_query($connection, $sql);
+    $num = mysqli_num_rows($result);
+    
+    if ($num == 1)
+      {$login = true;}
+  } 
+  else {
+    $showRrror = "Invalid Credentials!";
+}
+mysqli_close($connection);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,24 +49,26 @@
               <span class="login-page-text"
                 ><span><a href="LoginPage.php">Login</a></span></span
               >
-              <span class="login-page-text02"
-                ><span>Forgot Password</span></span
-              >
-              <span class="login-page-text04"><span>EMAIL</span></span>
               <span class="login-page-text06"
-                ><span><a href="SignUp.php">Sign Up</a></span></span
-              >
-              <div class="login-page-rectangle2">
-                 <input class = "form-input" type="text" placeholder="Enter Email">
+                ><span><a href="SignUp.php">Sign Up</a></span>
+              </span >
+              <span class="login-page-text02"
+                ><span>Forgot Password</span>
+              </span>
+              <form action="connection.php" method="post">
+                <span class="login-page-text04"><span>EMAIL</span></span>
+                <div class="login-page-rectangle2">
+                  <input class = "form-input" type="text" placeholder="Enter Email" id="email" name="email">
 
-              </div>
-              <span class="login-page-text08"><span>PASSWORD</span></span>
-              <div class="login-page-rectangle3">
-                <input class = "form-input" type="password" placeholder="Enter Password">
+                </div>
+                <span class="login-page-text08"><span>PASSWORD</span></span>
+                <div class="login-page-rectangle3">
+                  <input class = "form-input" type="password" placeholder="Enter Password" id="password" name="password">
 
-              </div>
-              <div class="login-page-rectangle7"></div>
-              <span class="login-page-text10"><span>Log In</span></span>
+                </div>
+                <div class="login-page-rectangle7"></div>
+                <span class="login-page-text10"><span><a href="studentDashboard.php">Log In</a></span></span>
+              </form>
             </div>
             <div class="login-page-ellipse1">
               <img
