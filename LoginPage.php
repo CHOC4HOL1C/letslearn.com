@@ -1,28 +1,32 @@
 <?php
-$login = false;
-$showError = false;
-$connection = mysqli_connect("localhost", "root", "", "letslearndb");
-if (!$connection) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-if (isset($_POST['search'])) 
-{
-    $email = $POST["email"];
-    $password = $POST["password"];
+  if (isSet($_POST['submit']))
+  {
+    include 'connection.php';
+    $userEmail = $_POST['email'];
+    $userPassword = $_POST['password'];
 
-    $sql ="SELECT * FROM `student` WHERE `email` = `$email` AND `password` = `$password`";
-    $result = mysqli_query($connection, $sql);
-    $num = mysqli_num_rows($result);
-    
-    if ($num == 1)
-      {$login = true;}
-  } 
-  else {
-    $showRrror = "Invalid Credentials!";
-}
-mysqli_close($connection);
+    $checkStudent = "SELECT * FROM student WHERE `email`  = '$userEmail' AND `password` = '$userPassword'";
+    $result1 = mysqli_query($con, $checkStudent);
 
+    $checkTeacher = "SELECT * FROM teacher where `email`  = '$userEmail' AND `password` = '$userPassword'";
+    $result2 = mysqli_query($con, $checkTeacher);
+
+    if (mysqli_num_rows($result1) == 1)
+    {
+      header('Location: studentDashboard.php');
+    } 
+    else if(mysqli_num_rows($result2) == 1) 
+    {
+      header('Location: TeacherDashboard.php');
+    }
+    else
+    {
+      echo "<script>alert('Invalid username or password')</script>";
+    }
+    mysqli_close($con);
+  }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -55,7 +59,7 @@ mysqli_close($connection);
               <span class="login-page-text02"
                 ><span>Forgot Password</span>
               </span>
-              <form action="connection.php" method="post">
+              <form method="post">
                 <span class="login-page-text04"><span>EMAIL</span></span>
                 <div class="login-page-rectangle2">
                   <input class = "form-input" type="text" placeholder="Enter Email" id="email" name="email">
@@ -67,7 +71,7 @@ mysqli_close($connection);
 
                 </div>
                 <div class="login-page-rectangle7"></div>
-                <span class="login-page-text10"><span><a href="studentDashboard.php">Log In</a></span></span>
+                <span class="login-page-text10"><button style="width: 179px; background-color: transparent; border-width: 0px; font-family: Poppins; font-size: 17px; margin-left: -60px;" type="submit" name="submit"><span><a href="#"> Log In </a></span></button></span>
               </form>
             </div>
             <div class="login-page-ellipse1">

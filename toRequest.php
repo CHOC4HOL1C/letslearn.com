@@ -16,7 +16,7 @@
         }
         else
         {
-            echo "<script>alert('Form submission has failed. Error: '. mysqli_error($con))</script>";
+            echo "<script>alert('Form submission has failed.')</script>";
         }
         $con->close();
     }

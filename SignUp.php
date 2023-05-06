@@ -1,5 +1,5 @@
 <?php
-  if (isset($_POST['submit'])) 
+  if (isSet($_POST['submit'])) 
   {
     include 'connection.php';
     $stuName = $_POST['studentName'];
