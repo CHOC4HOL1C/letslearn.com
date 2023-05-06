@@ -19,26 +19,26 @@
                 <div class="sign-up-line1"></div>
                 <div class="sign-up-line2"></div>
                 <span class="sign-up-text"><span><a href="LoginPage.php">Login</a></span></span>
-                <span class="sign-up-text02"><span>STUDENT NAME</span></span>
+                <span class="sign-up-text02"><span>EDUCATION LEVEL</span></span>
                 <span class="sign-up-text04"><span><a href="SignUp.php">Sign Up</a></span></span>
                 <div class="sign-up-rectangle2" style = "width: 300px;">
-                 <input class = "form-input" type="text" placeholder="Enter Full Name">
+                 <input class = "form-input" type="text" placeholder="O Levels / A Levels">
                 </div>
-                <span class="sign-up-text08"><span>EMAIL</span></span>
+                <span class="sign-up-text08"><span>EDUCATION BOARD</span></span>
                 <span class="sign-up-text10"><span>Already have an account</span></span>
                 <div class="sign-up-rectangle3">
-                 <input class = "form-input" type="text" placeholder="Enter Email">
+                 <input class = "form-input" type="text" placeholder="CIE / Edexcel">
                 </div>
-                <span class="sign-up-text12"><span>PASSWORD</span></span>
+                <span class="sign-up-text12"><span>DATE OF BIRTH</span></span>
                 <div class="sign-up-rectangle4">
-                 <input class = "form-input" type="password" placeholder="Enter Password">
+                 <input class = "form-input" type="date">
                 </div>
-                <span class="sign-up-text14"><span>RETYPE PASSWORD</span></span>
+                <span class="sign-up-text14"><span>PHONE NUMBER</span></span>
                 <div class="sign-up-rectangle6">
-                 <input class = "form-input" type="password" placeholder="Re-enter password">
+                 <input class = "form-input" type="tel" placeholder="+880">
                 </div>
                 <div class="sign-up-rectangle7"></div>
-                <span class="sign-up-text16"><span><a href="SignUpIntermediary.php">   Continue   </a></span></span>
+                <span class="sign-up-text16"><span><a href="LoginPage.php">   Sign Up   </a></span></span>
               </div>
               <div class="sign-up-ellipse1">
                 <img

@@ -84,6 +84,32 @@
       </div>
     </div>
 
+    <div class="subheading">
+        <h1>Content Upload Requests </h1> 
+        <div style="display: flex; justify-content: center">
+        <button class="stats-button" style = "width:45px; height: 45px; border-radius: 50%; position: absolute; left: 500px;  bottom: 115px; font-size: 20px">  5  </button>
+
+        <!-- <h5 style=" display: inline; float: left; background-color: #2a4d6d; border-radius: 50%">2</h5>  -->
+        </div>
+    </div>
+    
+
+
+    <div class="card-row" style="height: auto; ">
+        <div class="card-item">
+          <div class="card-item-text admin-stat-text" style="flex-direction: row; justify-content: space-between;">
+            <h2>Add New<br><br><br>Course</h2>
+            <img src="icons/plus.png" style="height: 30px; width: 30px" >
+          </div>
+        </div>
+        <div class="card-item">
+            <div class="card-item-text admin-stat-text" style="flex-direction: row; justify-content: space-between;">
+              <h2>Add New<br><br><br>Lesson</h2>
+              <img src="icons/plus.png" style="height: 30px; width: 30px" >
+            </div>
+          </div>
+    </div>
+
 
     <div class="subheading">
         <h1>Publish Content</h1>

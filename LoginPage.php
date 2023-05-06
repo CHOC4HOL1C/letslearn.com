@@ -22,14 +22,14 @@
               <div class="login-page-line1"></div>
               <div class="login-page-line2"></div>
               <span class="login-page-text"
-                ><span><a href="LoginPage.html">Login</a></span></span
+                ><span><a href="LoginPage.php">Login</a></span></span
               >
               <span class="login-page-text02"
                 ><span>Forgot Password</span></span
               >
               <span class="login-page-text04"><span>EMAIL</span></span>
               <span class="login-page-text06"
-                ><span><a href="SignUp.html">Sign Up</a></span></span
+                ><span><a href="SignUp.php">Sign Up</a></span></span
               >
               <div class="login-page-rectangle2">
                  <input class = "form-input" type="text" placeholder="Enter Email">
