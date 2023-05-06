@@ -7,12 +7,17 @@
     $stuPass = $_POST['password'];
     $stuRePass = $_POST['cpassword'];
 
+    session_start();
+    $_SESSION['userEmail'] = $stuEmail;
+
     if ($stuPass == $stuRePass) 
     {
       $sql = "INSERT INTO `student`(`studentName`, `email`, `password`) VALUES ('$stuName', '$stuEmail', '$stuPass')";
     }
     mysqli_query($con, $sql);
     $con->close();
+
+    header('Location: SignUpIntermediary.php');
   }
 ?>
 
