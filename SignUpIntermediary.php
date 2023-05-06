@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST['submit'])) {
+if (isSet($_POST['submit'])) {
   include 'connection.php';
   $stuEduLevel = $_POST['eduLevel'];
   $stuEduBoard = $_POST['eduBoard'];
