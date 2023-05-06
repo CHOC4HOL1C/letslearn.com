@@ -14,29 +14,31 @@
 </head>
 
 <body style="background-color: #12212f;font-family:poppins;">
-
-    <div class="header">
-        <div class="header-division">
-            <span class = "logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span class = "logo-style">Learn</span></a></span> 
-            <form action="" class="search-bar">
-                <input type="text" placeholder="search" name="">
+<div class="header">
+        <div class="header-division" id="box1">
+            <span class="logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span
+                        class="logo-style">Learn</span></a></span>
+        </div>
+        <div class="searchbar" id="box1">
+        <form action="" class="search-bar">
+                <input type="text" placeholder="search" name="search">
                 <button type="submit"><img src="Icon/search1.png" alt=""></button>
-            </form>
+        </form>
         </div>
-        <div class="user-pic">
-    <div class="dropdown">
-        <div class="dropbtn"><img src="Icon/user-pic.png"></div>
-        <div class="dropdown-content">
-          <a href="#">Profile</a>
-          <a href="#">Settings</a>
-          <a href="#">Logout</a>
+        <div class="user-pic" id="box1">
+            <div class="dropdown">
+                <div class="dropbtn"><img src="Icon/user-pic.png"></div>
+                <div class="dropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div><br>
+            <h4>User</h4>
         </div>
-      </div><br>
-      <h4>User</h4>
-    </div>
     </div>
     
-    <button class="btn mt-3 ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+    <button class="btn mt-3 ms-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
         aria-controls="offcanvasWithBothOptions" style="background-color:#00d989;"><img src="Icon/menuBar.png" alt=""></button>
 
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
@@ -61,29 +63,27 @@
     </div>
 
     <div class="title d-flex justify-content-between mt-4 ms-5">
-        <h2 class="p-2 g-3" style="color: #e1e1e1; display: inline-block; margin-bottom:26px;">CIE A-Level Additional Mathematics</h2>
-        <a href="#"><button type="button" class="btn btn-info mb-3 me-5 mt-1 p-2"><img src="Icon/tag-icon.png"> Purchase</button></a>
+      <h2 class="p-2 g-3" style=" margin-left:15px;color: #e1e1e1; display: inline-block; margin-bottom:26px;">CAIE AS Law P2</h2>
+      <a href="#"><button onclick="toPurchase()" type="button" class="btn btn-info mb-3 me-5 mt-1 p-2" id="toBuy"><img src="Icon/tag-icon.png"> Purchase</button></a>
     </div>
+
     <hr style="height:2px;border-width:0;color:gray;background-color:gray;">
-    <div class="content d-md-inline-flex align-items-center">
-        <div class="content1" style="color:#e1e1e1; margin-left:50px;">
+    <div class="content d-md-inline-flex justify-content-around align-items-center">
+        <div class="content1 " style="color:#e1e1e1; margin-left:50px;">
             <h2 style="margin-left:12px;">Free Tier Videos</h2>
             <div class="row mt-4">
-                <div class="col-11">
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/wCtS2SPg8Ik" class="p-2" style="text-decoration: none;">Chapter 1</a></button>
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/7QKA3h04nNM" class="p-2" style="text-decoration: none;">Chapter 2</a></button>
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/RjY5bZ4Bl8o" class="p-2" style="text-decoration: none;">Chapter 3</a></button>
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/GTyJcSzDXzY" class="p-2" style="text-decoration: none;">Chapter 4</a></button>
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/WRWFpYeETHM" class="p-2" style="text-decoration: none;">Chapter 5</a></button>
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/aGgYTvC16hA" class="p-2" style="text-decoration: none;">Chapter 6</a></button>
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/zPpaFhZAsB4" class="p-2" style="text-decoration: none;">Chapter 7</a></button>
+                <div class="col-8">
+                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/BmrZjQt7wHA?list=PLy-nslCOoVdP6tdqCX9AYr-IXBf-cKpwC" class="p-2" style="text-decoration: none;">Chapter 1</a></button>
+                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/1FjY8NXZ_7Y?list=PLy-nslCOoVdP6tdqCX9AYr-IXBf-cKpwC" class="p-2" style="text-decoration: none;">Chapter 2</a></button>
+                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/hseWJmClnOA?list=PLy-nslCOoVdP6tdqCX9AYr-IXBf-cKpwC" class="p-2" style="text-decoration: none;">Chapter 3</a></button>
+                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/cMPV9WvhmjY?list=PLy-nslCOoVdP6tdqCX9AYr-IXBf-cKpwC" class="p-2" style="text-decoration: none;">Chapter 4</a></button>
                 </div>
             </div>
         </div>
         <div class="content2">
             <h3 class="m-2" style="color:#e1e1e1;"><u>About this course:</u></h3>
             <div class="about-course ms-2 me-2 mb-2" style="padding: 30px;color:#252525;background-color: #00d989; margin-top: 60px; border-radius:8px; opacity:80%;font-size: 18px; word-wrap: break-word;">
-                This playlist covers all the chapters that needs to be covered to ace your CIE A2 Physics exam. Our teachers have designed the course contents in such a way so that it is easy for the students to grasp the concept and learn maths in a fun way! So why wait? Excel in your CIE A Level exam for just<p><h4>$18.99!</h4></p>
+            This playlist covers all the chapters that needs to be covered to ace your AS Law P2. Our teachers have designed the course contents in such a way so that it is easy for the students to grasp the concept and learn law in a fun way! So why wait? Excel in your CAIE exam for just<p><h4>BDT875</h4></p>
             </div>
         </div>
     </div>

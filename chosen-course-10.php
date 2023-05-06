@@ -63,7 +63,7 @@
     </div>
 
     <div class="title d-flex justify-content-between mt-4 ms-5">
-      <h2 class="p-2 g-3" style=" margin-left:15px;color: #e1e1e1; display: inline-block; margin-bottom:26px;">CAIE O' Level Bangladesh Studies P1</h2>
+      <h2 class="p-2 g-3" style=" margin-left:15px;color: #e1e1e1; display: inline-block; margin-bottom:26px;">Edexcel O' Level Maths B P1</h2>
       <a href="#"><button onclick="toPurchase()" type="button" class="btn btn-info mb-3 me-5 mt-1 p-2" id="toBuy"><img src="Icon/tag-icon.png"> Purchase</button></a>
     </div>
 
@@ -73,17 +73,17 @@
             <h2 style="margin-left:12px;">Free Tier Videos</h2>
             <div class="row mt-4">
                 <div class="col-8">
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/j1L6VFIXcXs?list=PLIW71uShwve50TTMI5ZLB9hoXcClqpDiC" class="p-2" style="text-decoration: none;">Chapter 1</a></button>
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/LXwIJswUB60?list=PLIW71uShwve50TTMI5ZLB9hoXcClqpDiC" class="p-2" style="text-decoration: none;">Chapter 2</a></button>
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/8CI9qmnvWx8?list=PLIW71uShwve50TTMI5ZLB9hoXcClqpDiC" class="p-2" style="text-decoration: none;">Chapter 3</a></button>
-                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/tkXzWpTYQsI?list=PLIW71uShwve50TTMI5ZLB9hoXcClqpDiC" class="p-2" style="text-decoration: none;">Chapter 4</a></button>
+                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/qr0Dg4Svi7Q?list=PLu0xWm4IuVKbnjDVoAmt3o36D6MU0rHYt" class="p-2" style="text-decoration: none;">Chapter 1</a></button>
+                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/jCrOLEWuKsA?list=PLu0xWm4IuVKbnjDVoAmt3o36D6MU0rHYt" class="p-2" style="text-decoration: none;">Chapter 2</a></button>
+                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/bqTyXhDtMZc?list=PLu0xWm4IuVKbnjDVoAmt3o36D6MU0rHYt" class="p-2" style="text-decoration: none;">Chapter 3</a></button>
+                    <button class="btn" style="margin-right: 15px; margin-bottom: 15px;"><a href="https://youtu.be/DWsNa1-9RR4?list=PLu0xWm4IuVKbnjDVoAmt3o36D6MU0rHYt" class="p-2" style="text-decoration: none;">Chapter 4</a></button>
                 </div>
             </div>
         </div>
         <div class="content2">
             <h3 class="m-2" style="color:#e1e1e1;"><u>About this course:</u></h3>
             <div class="about-course ms-2 me-2 mb-2" style="padding: 30px;color:#252525;background-color: #00d989; margin-top: 60px; border-radius:8px; opacity:80%;font-size: 18px; word-wrap: break-word;">
-                This playlist covers all the chapters that needs to be covered to ace your O' Level Bangladesh Studies P1. Our teachers have designed the course contents in such a way so that it is easy for the students to grasp the concept and learn bangladesh studies in a fun way! So why wait? Excel in your CAIE  exam for just<p><h4>BDT675</h4></p>
+            This playlist covers all the chapters that needs to be covered to ace your AS Commerce U2. Our teachers have designed the course contents in such a way so that it is easy for the students to grasp the concept and learn commerce in a fun way! So why wait? Excel in your A2 exam for just<p><h4>BDT999</h4></p>
             </div>
         </div>
     </div>

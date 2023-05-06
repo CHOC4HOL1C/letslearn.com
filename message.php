@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "chatbotdb") or die("Database Error");
+$conn = mysqli_connect("localhost", "root", "", "letslearndb") or die("Database Error");
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);
 $check_data = "SELECT replies FROM chatbot WHERE queries LIKE '%$getMesg%'";
 $run_query = mysqli_query($conn, $check_data) or die("Error");

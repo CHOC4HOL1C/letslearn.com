@@ -94,15 +94,15 @@
 
     <div class="card-row" style="height: auto; ">
         <div class="card-item">
-          <div class="card-item-text admin-stat-text" style="flex-direction: row; justify-content: space-between;">
+          <div class="card-item-text admin-stat-text" style="flex-direction: row; justify-content: space-between; height: 100%;">
             <h2>Add New<br><br><br>Course</h2>
-            <img src="icons/plus.png" style="height: 30px; width: 30px" >
+            <a href="toRequest.php" target="_blank"><button style="background-color: transparent; border: none; cursor: pointer;"><img src="icons/plus.png" style="height: 30px; width: 30px" ></button></a>
           </div>
         </div>
         <div class="card-item">
             <div class="card-item-text admin-stat-text" style="flex-direction: row; justify-content: space-between;">
               <h2>Add New<br><br><br>Lesson</h2>
-              <img src="icons/plus.png" style="height: 30px; width: 30px" >
+              <a href=""><button style="background-color: transparent; border: none; cursor: pointer;"><img src="icons/plus.png" style="height: 30px; width: 30px" ></button></a>
             </div>
           </div>
     </div>
