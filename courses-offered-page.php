@@ -27,7 +27,7 @@
         <div class="dropdown-content">
           <a href="#">Profile</a>
           <a href="#">Settings</a>
-          <a href="#">Logout</a>
+          <a href="LoginPage.php">Logout</a>
         </div>
       </div><br>
       <h4>User</h4>
@@ -128,8 +128,9 @@
     endif;
     ?>
   </div>
-
-
+  <div class="chat-bot" style="">
+  <a href="chtbt.php"><img src="pictures\chat-head.png" alt="" style="width: 60px;height: 60px; float: right;"></a>
+  </div>
   <footer>
     <p class="bodytext">
       &copy; Let's Learn 2023. All Rights Reserved.
