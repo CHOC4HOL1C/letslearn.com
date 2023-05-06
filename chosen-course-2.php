@@ -17,17 +17,17 @@
 
 <body style="background-color: #12212f;font-family:poppins;">
     <div class="header">
-        <div class="header-division">
+        <div class="header-division" id="box1">
             <span class="logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span
                         class="logo-style">Learn</span></a></span>
         </div>
-        <div class="search-bar">
+        <div class="searchbar" id="box1">
         <form action="" class="search-bar">
-                <input type="text" placeholder="search" name="">
+                <input type="text" placeholder="search" name="search">
                 <button type="submit"><img src="Icon/search1.png" alt=""></button>
-            </form>
+        </form>
         </div>
-        <div class="user-pic">
+        <div class="user-pic" id="box1">
             <div class="dropdown">
                 <div class="dropbtn"><img src="Icon/user-pic.png"></div>
                 <div class="dropdown-content">

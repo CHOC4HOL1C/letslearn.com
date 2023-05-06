@@ -20,13 +20,9 @@
     <div class="header-division">
       <span class="logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span
             class="logo-style">Learn</span></a></span>
-      <form action="" class="search-bar">
-        <input type="text" placeholder="search" name="">
-        <button type="submit"><img src="Icon/search1.png" alt=""></button>
-      </form>
     </div>
     <div class="user-pic">
-    <div class="dropdown">
+      <div class="dropdown">
         <div class="dropbtn"><img src="Icon/user-pic.png"></div>
         <div class="dropdown-content">
           <a href="#">Profile</a>
@@ -78,86 +74,60 @@
   </div>
 
   <div class="btn-group ms-5 mt-1" data-bs-theme="dark">
-
-    <button class="btn btn-custom2 dropdown-toggle ms-4 rounded"
-      style="margin-left:2px;background-color:#00d989; color:#12212f" id="id1" type="button" data-bs-toggle="dropdown"
-      aria-expanded="false">
-      Edexcel
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
-      <li><a class="dropdown-item" href="#"></a></li>
-      <li><a class="dropdown-item" href="#">O' Level</a></li>
-      <li><a class="dropdown-item" href="#">AS</a></li>
-      <li><a class="dropdown-item" href="#">A2</a></li>
-    </ul>
-    <button class="btn btn-custom2 dropdown-toggle ms-4 rounded"
-      style="margin-left:2px;background-color:#00d989;color:#12212f" id="id2" type="button" data-bs-toggle="dropdown"
-      aria-expanded="false">
-      CIE
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
-      <li><a class="dropdown-item" href="#"></a></li>
-      <li><a class="dropdown-item" href="#">O' Level</a></li>
-      <li><a class="dropdown-item" href="#">AS</a></li>
-      <li><a class="dropdown-item" href="#">A2</a></li>
-    </ul>
+    <form method="POST">
+      <span class="m-2 p-2 rounded" style="margin-left:2px;background-color:#00d989;color:#12212f">Board </span>
+      <select class="p-1" name="board">
+        <option value="Edexcel" class>Edexcel</option>
+        <option value="CAIE">CAIE</option>
+      </select>
+      <span class="m-2 p-2 rounded" style="margin-left:2px;background-color:#00d989;color:#12212f">Level </span>
+      <select class="p-1" name="level">
+        <option value="O\' Level" class>O' Level</option>
+        <option value="AS">AS</option>
+        <option value="A2">A2</option>
+      </select>
+      <input name="submit" value="submit" type="submit" class="m-2 p-2 rounded"
+        style="margin-left:2px;background-color:#00d989;color:#12212f; text-decoration:none;">
+    </form>
   </div>
 
-  <div class="row row-cols-1 row-cols-md-3 mt-5 ms-4 g-5 w-100">
-    <div class="col">
-      <div class="card border-0 h-100 w-70">
-        <iframe width="100%" height="200" src="https://www.youtube.com/embed/hCuYAoditNA"
-          title="CIE IGCSE Additional Maths: Indices" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <div class="card-body"
-          style="color:white; background-color: #2a4d6d;display: flex; justify-content: space-between; align-items: center;">
-          <h5 class="card-title m-1" style="background-color:#2a4d6d;">CIE IGCSE Add Maths</h5>
-          <a href="chosen-course-2.php" class="btn btn-outline-info p-3" role="button">View Course</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card border-0 h-100">
-        <iframe width="100%" height="200" src="https://www.youtube.com/embed/EvH-stL0BQs"
-          title="A level Biology ENTIRE topic 6: Learn the whole topic - response, muscles, synapses &amp; homeostasis"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <div class="card-body"
-          style="color:white; background-color:  #2a4d6d;display: flex; justify-content: space-between; align-items: center;">
-          <h5 class="card-title" style="background-color:#2a4d6d;">A2 Biology: Unit 6</h5>
-          <a href="chosen-course-3.php" class="btn btn-outline-info p-3" role="button">View Course</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card border-0 h-100">
-        <iframe width="100%" height="200" src="https://www.youtube.com/embed/TosrRomVUcg"
-          title="A-Level Maths: 10 MINUTE TOPIC REVISION: Polynomials (AS Level Algebra)" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <div class="card-body"
-          style="color:white; background-color: #2a4d6d;display: flex; justify-content: space-between; align-items: center;">
-          <h5 class="card-title" style="background-color:#2a4d6d;">AS Mathematics: Polynomials</h5>
-          <a href="chosen-course-4.php" class="btn btn-outline-info p-3" role="button">View Course</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card border-0 h-100">
-        <iframe width="100%" height="200" src="https://www.youtube.com/embed/L1URiY9xg8k"
-          title="The whole of A Level Physics in about  12 hours  PHYSICS REVISION" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <div class="card-body"
-          style="color:white; background-color: #2a4d6d;display: flex; justify-content: space-between; align-items: center;">
-          <h5 class="card-title" style="background-color:#2a4d6d;">A2 Physics</h5>
-          <a href="chosen-course-5.php" class="btn btn-outline-info p-3" role="button">View Course</a>
-        </div>
-      </div>
-    </div>
+
+  <div class="col-list row row-cols-1 row-cols-md-3 mt-5 ms-4 g-5 w-100" id="course-list">
+    <?php
+    $con = mysqli_connect('localhost', 'root', '', 'letslearndb');
+    $result=NULL;
+    if (isset($_POST['submit'])) {
+      $level = $_POST['level'];
+      $board = $_POST['board'];
+      $query = "SELECT * FROM course WHERE courseBoard='$board' AND courseLevel='$level';";
+      $result = mysqli_query($con, $query);
+    } else {
+      $query = 'SELECT * FROM course';
+      $result = mysqli_query($con, $query);
+    }
+
+    if ($result):
+      if (mysqli_num_rows($result) > 0):
+        while ($video = mysqli_fetch_assoc($result)):
+            echo '<div class="col">
+                        <div class="card border-0 h-100">
+                          <iframe width="100%" height="200" src=' . $video['vidLink'] . '
+                            title="The whole of A Level Physics in about  12 hours  PHYSICS REVISION" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                          <div class="card-body"
+                            style="color:white; background-color: #2a4d6d;display: flex; justify-content: space-between; align-items: center;">
+                            <h5 class="card-title" style="background-color:#2a4d6d;">' . $video['courseBoard'] . ' ' . $video['courseLevel'] . ' ' . $video['courseName'] . ' ' . $video['unit'] . '</h5>
+                            <a href="chosen-course-5.php" class="btn btn-outline-info p-3" role="button">View Course</a>
+                          </div>
+                        </div>
+                      </div>';
+          endwhile;
+      endif;
+    endif;
+    ?>
   </div>
+
 
   <footer>
     <p class="bodytext">
@@ -165,6 +135,8 @@
     </p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                               

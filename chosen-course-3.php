@@ -15,24 +15,27 @@
 
 <body style="background-color: #12212f;font-family:poppins;">
 <div class="header">
-        <div class="header-division">
-            <span class = "logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span class = "logo-style">Learn</span></a></span> 
-            <form action="" class="search-bar">
-                <input type="text" placeholder="search" name="">
+        <div class="header-division" id="box1">
+            <span class="logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span
+                        class="logo-style">Learn</span></a></span>
+        </div>
+        <div class="searchbar" id="box1">
+        <form action="" class="search-bar">
+                <input type="text" placeholder="search" name="search">
                 <button type="submit"><img src="Icon/search1.png" alt=""></button>
-            </form>
+        </form>
         </div>
-        <div class="user-pic">
-    <div class="dropdown">
-        <div class="dropbtn"><img src="Icon/user-pic.png"></div>
-        <div class="dropdown-content">
-          <a href="#">Profile</a>
-          <a href="#">Settings</a>
-          <a href="#">Logout</a>
+        <div class="user-pic" id="box1">
+            <div class="dropdown">
+                <div class="dropbtn"><img src="Icon/user-pic.png"></div>
+                <div class="dropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div><br>
+            <h4>User</h4>
         </div>
-      </div><br>
-      <h4>User</h4>
-    </div>
     </div>
     
     <button class="btn mt-3 ms-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"

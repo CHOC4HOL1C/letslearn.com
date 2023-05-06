@@ -74,7 +74,6 @@ img {
     color: #CFCFCF;
     width: 110%;
 }
-
 .search-bar img {
     width: 20px;
     height: 20px;
@@ -151,9 +150,10 @@ img {
     display: block;
 }
 @media (max-width: 575px) {
-    .logo{
+    .logo {
         font-size: 20px;
     }
+
     .search-bar {
         width: 170px;
         margin-top: 15px;
@@ -167,11 +167,14 @@ img {
     .user-pic {
         margin-left: 5px;
     }
+
     .user-pic img {
         width: 12vw;
         height: 5vh;
     }
-    .user-pic h4{
+
+    .user-pic h4 {
+        padding-left: 20px;
         font-size: 18px;
     }
 }
