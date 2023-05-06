@@ -61,7 +61,7 @@
         </a>
       </div>
       <div style="text-align: center;">
-        <a href="#" class="btn btn-outline-info" role="button">
+        <a href="index.php#section6" class="btn btn-outline-info" role="button">
           <h4><img src="Icon/contact.png" style="margin-bottom: 4px;" alt=""> Contact Us</h4>
         </a>
       </div>
