@@ -1,3 +1,14 @@
+:root {
+    --accent-color: #00d989;
+    --accent-color-rgb: rgb(4, 170, 109);
+    --dark-color: #24252A;
+    --dark-blue-color: #12212f;
+    --lighter-blue-color: #2a4d6d;
+  --poppins: "Poppins", sans-serif;
+    /* --accent-color: #04AA6D; */
+
+}
+
 .formContainer {
     display: flex;
     justify-content: center;
@@ -7,10 +18,12 @@
 
 form
 {
-    background-color: rgba(4, 170, 170, 0.7);
+    background-color: var(--lighter-blue-color);
     padding: 50px;
     border-radius: 10px;
     width: 50%;
+    color:white;
+    font-family: var(--poppins);
 }
 
 @media (max-width: 768px)
