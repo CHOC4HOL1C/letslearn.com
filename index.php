@@ -150,11 +150,11 @@
           </div>
         </div>
         <div class="col-md-6">                            
-          <form id="contact" action="" method="post">
+          <form id="contact" action="contactus.php" method="post">
             <div class="row">
               <div class="col-md-6">
                   <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                    <input name="sname" type="text" class="form-control" id="name" placeholder="Your Name" required="">
                   </fieldset>
                 </div>
                 <div class="col-md-6">

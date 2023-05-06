@@ -20,8 +20,8 @@
     <div class="header-division">
       <span class="logo"><a href="index.php" style="text-decoration: none; color: #eee;">Let's<br><span
             class="logo-style">Learn</span></a></span>
-      <form action="" class="search-bar">
-        <input type="text" placeholder="search" name="">
+      <form action="course_search.php" class="search-bar" method = "post">
+        <input type="text" placeholder="search" name="search">
         <button type="submit"><img src="Icon/search1.png" alt=""></button>
       </form>
     </div>
