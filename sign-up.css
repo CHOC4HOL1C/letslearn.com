@@ -29,7 +29,7 @@ a:active {
   flex-direction: column;
 } */
 .body {
-  background-image: linear-gradient(180deg, #2a4d6d, #12212f);
+  background-image: url('./pictures/doodle.jpeg');
   display: block;
   text-align: center;
   /* justify-content: center;
@@ -47,7 +47,10 @@ a:active {
   align-items: center;
   justify-content: center;
   border-color: transparent;
-  background-image: linear-gradient(180deg, #2a4d6d, #12212f);
+  /* background-image: linear-gradient(180deg, #2a4d6d, #12212f); */
+  background-image: linear-gradient(180deg, #2a4d6d, #12212f); 
+
+
 }
 .sign-up-signup-tray {
   /* top: 151px;

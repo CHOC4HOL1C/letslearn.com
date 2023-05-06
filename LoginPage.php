@@ -64,7 +64,6 @@ mysqli_close($connection);
                 <span class="login-page-text08"><span>PASSWORD</span></span>
                 <div class="login-page-rectangle3">
                   <input class = "form-input" type="password" placeholder="Enter Password" id="password" name="password">
-
                 </div>
                 <div class="login-page-rectangle7"></div>
                 <span class="login-page-text10"><span><a href="studentDashboard.php">Log In</a></span></span>

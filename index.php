@@ -141,7 +141,7 @@
       </div>
     </div>
   </section>
-  <section class="section contact" data-section="section6">
+  <section class="section contact" data-section="section6" id="contact-us">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
