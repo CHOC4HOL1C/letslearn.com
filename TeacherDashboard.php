@@ -59,34 +59,54 @@
 
     <div class="card-row">
       <div class="card-item">
-        <img class="card-image" src="/pictures/MathsD.jpg" />
+        <img class="card-image" src="./pictures/MathsD.jpg" />
         <div class="card-item-text">
           <h5>CIE O Level</h5>
           <h2>Maths D</h2>
         </div>
       </div>
       <div class="card-item">
-        <img class="card-image" src="/pictures/MathsB.jpg" />
+        <img class="card-image" src="./pictures/MathsB.jpg" />
         <div class="card-item-text">
           <h5>Pearson IGCSE</h5>
           <h2>Maths B</h2>
         </div>
       </div>
       <div class="card-item">
-        <img class="card-image" src="/pictures/AdMath.jpg" />
+        <img class="card-image" src="./pictures/AdMath.jpg" />
         <div class="card-item-text">
           <h5>CIE O Level</h5>
           <h2>Additional Math</h2>
         </div>
       </div>
       <div class="card-item">
-        <img class="card-image" src="/pictures/P1Math.jpg" />
+        <img class="card-image" src="./pictures/P1Math.jpg" />
         <div class="card-item-text">
           <h5>CIE A Level</h5>
           <h2>P1: Pure Math</h2>
         </div>
       </div>
     </div>
+
+    <div class="subheading">
+        <h1>Publish Content</h1>
+    </div>
+
+    <div class="card-row" style="height: auto; ">
+        <div class="card-item">
+          <div class="card-item-text admin-stat-text" style="flex-direction: row; justify-content: space-between;">
+            <h2>Add New<br><br><br>Course</h2>
+            <img src="icons/plus.png" style="height: 30px; width: 30px" >
+          </div>
+        </div>
+        <div class="card-item">
+            <div class="card-item-text admin-stat-text" style="flex-direction: row; justify-content: space-between;">
+              <h2>Add New<br><br><br>Lesson</h2>
+              <img src="icons/plus.png" style="height: 30px; width: 30px" >
+            </div>
+          </div>
+    </div>
+
 
     <div class="subheading">
       <h1>Stats</h1>
