@@ -27,7 +27,7 @@
       <ul class="main-menu">
         <li><a href="#section1">Home</a></li>
         <li><a href="#section2">About Us</a></li>
-        <li><a href="#features">Courses</a></li>
+        <li><a href="courses-offered-page.php">Courses</a></li>
         <li><a href="#section6">Contact</a></li>
         <li><a href="LoginPage.php">Sign in</a></li>
       </ul>
