@@ -134,7 +134,7 @@
     endif;
     ?>
   </div>
-  <div class="chat-bot" style="">
+  <div class="chat-bot">
   <a href="chtbt.php"><img src="pictures\chat-head.png" alt="" style="width: 60px;height: 60px; float: right;"></a>
   </div>
   <footer>
