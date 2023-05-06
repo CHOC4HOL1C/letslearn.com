@@ -1,6 +1,6 @@
 
 <?php
-    $server = "localhost"; // 127.0.0.1:3307 ONLY for Zannat 
+    $server = "127.0.0.1:3307"; // 127.0.0.1:3307 ONLY for Zannat 
     $username = "root";
     $password = "";
     $db = "letslearndb";

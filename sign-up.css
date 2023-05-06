@@ -198,7 +198,7 @@ a:active {
 .sign-up-rectangle2 {
   top: 175px;
   left: 50px;
-  width: 145px;
+  width: 300px;
   height: 32px;
   display: flex;
   position: absolute;
@@ -361,6 +361,7 @@ a:active {
   border-radius: 10px;
   background-color: #00d989;
 }
+
 .sign-up-text16 {
   top: 483px;
   left: 165px;

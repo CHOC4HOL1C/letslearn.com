@@ -29,7 +29,7 @@
         <li><a href="#section2">About Us</a></li>
         <li><a href="#features">Courses</a></li>
         <li><a href="#section6">Contact</a></li>
-        <li><a href="LoginPage.html">Sign in</a></li>
+        <li><a href="LoginPage.php">Sign in</a></li>
       </ul>
     </nav>
   </header>
@@ -44,7 +44,7 @@
               <h2><em>Build</em> Skills.</h2>
               <h2><em>Excel</em> Your Exam.</h2>
               <div class="main-button">
-                  <div class="scroll-to-section"><a href="LoginPage.html">Start Here</a></div>
+                  <div class="scroll-to-section"><a href="LoginPage.php">Start Here</a></div>
               </div>
           </div>
       </div>
