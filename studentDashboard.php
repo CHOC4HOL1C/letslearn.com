@@ -41,7 +41,7 @@
                 <a href="index.php" class="btn btn-outline-info" role="button"><h4><img src="Icon/home.png" style="margin-bottom: 4px;" alt=""> Home</h4></a>
             </div>
             <div style="margin-bottom: 5%; text-align: center;">
-                <a href="#" class="btn btn-outline-info" role="button"><h4><img src="Icon/achievement.png" style="margin-bottom: 4px;" alt=""> Achievement</h4></a>
+                <a href="achievements.html" class="btn btn-outline-info" role="button"><h4><img src="Icon/achievement.png" style="margin-bottom: 4px;" alt=""> Achievement</h4></a>
             </div>
             <div style="margin-bottom: 5%; text-align: center;">
                 <a href="courses-offered-page.php" class="btn btn-outline-info" role="button"><h4><img src="Icon/course.png" style="margin-bottom: 4px;" alt=""> Courses</h4></a>
