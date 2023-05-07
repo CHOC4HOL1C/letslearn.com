@@ -3,7 +3,7 @@ Let's Learn is an e-learning platform for students following the British curricu
 ![Screenshot01](https://user-images.githubusercontent.com/68160814/236650521-2c5c9268-d606-4ced-8d44-5dfa93324eda.png)
 ![Screenshot02](https://user-images.githubusercontent.com/68160814/236650523-c0088624-e90d-4c1c-be28-3ae5cc9a6dec.png)
 ![Screenshot07](https://user-images.githubusercontent.com/68160814/236650909-74e473f0-bed6-4f0d-b34e-61f9e9d3e550.png)
-![Screenshot06](https://user-images.githubusercontent.com/68160814/236650540-fc656801-2bb6-4fff-84ed-1676d4d12ea7.png)
+![Screenshot06](https://user-images.githubusercontent.com/68160814/236651180-6a70cb1c-539a-4463-9c54-cf27ea9b90b5.png)
 ![Screenshot03](https://user-images.githubusercontent.com/68160814/236650526-15e2d8e8-a6b7-4dbc-8dea-234b37eaca56.png)
 ![Screenshot04](https://user-images.githubusercontent.com/68160814/236650527-7c06d363-0df2-4eb1-86d0-ad181cfd4199.png)
 ![Screenshot11](https://user-images.githubusercontent.com/68160814/236651072-5f4684d2-e291-43cd-97ec-56acd003a4b4.png)
