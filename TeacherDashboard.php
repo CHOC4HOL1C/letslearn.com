@@ -39,7 +39,7 @@
               <div class="dropdown-content">
                 <a href="#">Profile</a>
                 <a href="#">Settings</a>
-                <a href="SignUp.html">Logout</a>
+                <a href="LoginPage.php">Logout</a>
               </div>
             </div>
           </li>

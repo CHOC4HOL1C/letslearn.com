@@ -11,6 +11,9 @@
     $checkTeacher = "SELECT * FROM teacher where `email`  = '$userEmail' AND `password` = '$userPassword'";
     $result2 = mysqli_query($con, $checkTeacher);
 
+    $checkAdmin= "SELECT * FROM admin where `email`  = '$userEmail' AND `password` = '$userPassword'";
+    $result3 = mysqli_query($con, $checkAdmin);
+
     if (mysqli_num_rows($result1) == 1)
     {
       header('Location: studentDashboard.php');
@@ -18,6 +21,10 @@
     else if(mysqli_num_rows($result2) == 1) 
     {
       header('Location: TeacherDashboard.php');
+    }
+    else if(mysqli_num_rows($result3) == 1) 
+    {
+      header('Location: AdminDashboard.php');
     }
     else
     {
