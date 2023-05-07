@@ -267,10 +267,10 @@ border-radius: 10% 10% 0% 0%;
 
 .magic-button {
     position: relative;
-    top: -460px;
+    top: -540px;
     border-width: 0px;
     border-color: transparent;
-    /* background-color: transparent; */
+    background-color: transparent;
 }
 
 .admin-stat-text {
@@ -362,11 +362,15 @@ border-radius: 10% 10% 0% 0%;
     height: 80%;
     box-shadow: 0px 50px 100px rgba(0,0,0,0.8), 0 0 0 1000px rgba(0,0,0,0.55);
     border-radius: 2%;
-    display: flex;
+    /* display: flex; */
+    flex-direction: row;
     justify-content: center;
     align-items:start;
     padding: 10px;
     visibility: hidden;
+  }
+  .popup.active {
+    visibility: visible;
   }
   .close {
     position: absolute;

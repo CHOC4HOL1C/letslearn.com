@@ -130,16 +130,25 @@
     </div>
 
     <div class="popup" id="bronze-popup">
-        <h2>Congratulations on achieving new medal!</h2>
-        <b class="close">x</b>
+        <h2>Congratulations on achieving Bronze medal!</h2>
+        <div>
+          <img class="card-image" style="display: flex; justify-content: center; align-items: center;height: 100%; width:100%;" src="./pictures/Medal-bronze.png">
+        </div>
+        <b class="close" id="bronzeClose">x</b>
     </div>
     <div class="popup" id="silver-popup">
-      <h2>Congratulations on achieving new medal!</h2>
-      <b class="close">x</b>
+      <h2>Congratulations on achieving Silver medal!</h2>
+      <div>
+        <img class="card-image" style="display: flex; justify-content: center; align-items: center;height: 100%; width:100%;" src="./pictures/Medal-silver.png">
+      </div>
+      <b class="close" id="silverClose">x</b>
      </div>
   <div class="popup" id="gold-popup">
-    <h2>Congratulations on achieving new medal!</h2>
-    <b class="close">x</b>
+    <h2>Congratulations on achieving Gold medal!</h2>
+    <div>
+      <img class="card-image" style="display: flex; justify-content: center; align-items: center;height: 100%; width:100%;" src="./pictures/Medal-gold.png">
+    </div>
+    <b class="close" id="goldClose">x</b>
 </div>
 
     <footer style="position: fixed; bottom: 0">
@@ -153,6 +162,21 @@
           const id = obj.id
           const popup = document.querySelector(`#${id}-popup`)
           popup.classList.add('active')
+        }
+        let bronzePopup = document.querySelector('#bronze-popup')
+        let silverPopup = document.querySelector('#silver-popup')
+        let goldPopup = document.querySelector('#gold-popup')
+
+
+        let bronzeClose = document.querySelector('.close')
+        bronzeClose.onclick = function() {
+          bronzePopup.classList.remove('active')
+        }
+        silverClose.onclick = function() {
+          silverPopup.classList.remove('active')
+        }
+        goldClose.onclick = function() {
+          goldPopup.classList.remove('active')
         }
     </script>
     <script src="script.js"></script>
