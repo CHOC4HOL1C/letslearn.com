@@ -151,22 +151,28 @@
     <b class="close" id="goldClose">x</b>
 </div>
 
+
+
     <footer style="position: fixed; bottom: 0">
       <p class="bodytext" style="margin-left: 50px">
         &copy; Let's Learn 2023. All Rights Reserved.
       </p>
     </footer>
 
+    <canvas id="my-canvas"></canvas>
+    <script src="index.min.js"></script>
     <script>
+        let confet = document.querySelector('#my-canvas')
         function showPopup(obj) {
           const id = obj.id
           const popup = document.querySelector(`#${id}-popup`)
           popup.classList.add('active')
+          confet.classList.add('active')
+
         }
         let bronzePopup = document.querySelector('#bronze-popup')
         let silverPopup = document.querySelector('#silver-popup')
         let goldPopup = document.querySelector('#gold-popup')
-
 
         let bronzeClose = document.querySelector('.close')
         bronzeClose.onclick = function() {
@@ -178,6 +184,13 @@
         goldClose.onclick = function() {
           goldPopup.classList.remove('active')
         }
+
+
+        var confettiSettings = { target: 'my-canvas' };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
+
+
     </script>
     <script src="script.js"></script>
   </body>
